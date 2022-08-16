@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #1f2937;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
