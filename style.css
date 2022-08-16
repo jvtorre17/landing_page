@@ -1,5 +1,6 @@
 body {
     display: flex;
+    margin: auto;
 }
 
 header {
@@ -7,10 +8,12 @@ header {
     justify-content: space-between;
     flex: 1;
     background-color: #1f2937;
-    padding: 25px;
+    padding: 0px 250px 0px 250px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
